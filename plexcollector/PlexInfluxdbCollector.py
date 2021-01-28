@@ -129,8 +129,8 @@ class PlexInfluxdbCollector:
         log.debug('Adding Request Headers')
 
         headers = {
-            'X-Plex-Client-Identifier': 'Richard Plex Data Collector',
-            'X-Plex-Product': 'Plex InfluxDB Collector',
+            'X-Plex-Client-Identifier': 'Richard Plex Data',
+            'X-Plex-Product': 'Richard Plex Collector',
             'X-Plex-Version': '1',
             'X-Plex-Token': self.token
         }
